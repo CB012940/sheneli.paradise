@@ -1,0 +1,72 @@
+/*Restaurants*/
+
+.Restaurants{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.row{
+   flex-basis: 31%;
+   border-radius: 10px;
+   text-align: left;
+}
+
+.row img{
+    border-radius: 10px;
+}
+
+.row p{
+    padding: 0;
+}
+
+.row h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/*Hotel booking form*/
+
+/* styles.css */
+.booking-form {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: lightblue;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #f2f5f7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.date-input-container {
+  text-size-adjust: 55%;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="adventure.js"></script>
+    <title>Adventure Booking</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Adventure Booking</h1>
+
+        <!-- Form for Adventure Booking -->
+        <form id="adventureBookingForm">
+            <label for="adventureType">Choose Adventure Type:</label>
+            <select id="adventureType" name="adventureType">
+                <option value="localAdult">Local Adults</option>
+                <option value="localKids">Local Kids (above 5 years)</option>
+                <option value="foreignAdult">Foreign Adults</option>
+                <option value="foreignKids">Foreign Kids</option>
+            </select>
+
+            <label>Need a Guide?</label>
+            <input type="checkbox" id="guideAdult" name="guideAdult">
+            <label for="guideAdult">Adult Guide</label>
+            <input type="checkbox" id="guideKids" name="guideKids">
+            <label for="guideKids">Kids Guide</label>
+
+            <button type="button" id="bookAdventureBtn">Book Adventure</button>
+
+            <!-- Display Booking Information -->
+            <div id="bookingInfo">
+                <h2>Booking Information</h2>
+                <p id="currentBooking">Current Booking: </p>
+                <p id="currentCost">Cost of Current Booking: LKR 0.00</p>
+                <p id="overallBooking">Overall Booking: </p>
+                <p id="overallCost">Overall Cost: LKR 0.00</p>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>

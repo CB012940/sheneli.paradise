@@ -1,0 +1,121 @@
+/*hotel booking css*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('hotel-background.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #bookingInfo {
+    margin-top: 20px;
+  }
+  
+  #bookingInfo h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
+  
+  #loyaltyPointsDisplay {
+    margin-top: 10px;
+  }
+  
+  
+  /*adventure booking*/
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('adventure-background.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+  }
+  
+  /*Booking main page CSS*/
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/roompoolview.png.webp);
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 180px;
+  }
+  
+  h1 {
+    color: #f7f6f6;
+    font-size: 70px;
+  }
+  
+  .booking-btn {
+    padding: 20px 40px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  

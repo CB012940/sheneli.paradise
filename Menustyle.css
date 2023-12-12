@@ -1,0 +1,17 @@
+/*Menu*/
+
+
+.menu-content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(75, 85, 88);
+    background-size: cover;
+}
+
+.menu-content img{
+    max-width: 3000px;
+    margin-right: 1%;
+}
+
